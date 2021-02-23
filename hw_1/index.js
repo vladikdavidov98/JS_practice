@@ -19,9 +19,9 @@ var credentials = {
       }
     idInput.onclick = function() {
         if(idLogin.value == credentials.login && idPass.value == credentials.password){
-          setTimeout(inputTrue, 2000);
+          setTimeout(inputTrue, 1000);
         }else{
-          setTimeout(inputFalse, 2000);
+          setTimeout(inputFalse, 1000);
         }
         
     }
